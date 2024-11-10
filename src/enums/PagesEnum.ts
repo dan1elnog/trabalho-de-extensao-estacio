@@ -1,0 +1,10 @@
+export enum PagesEnum {
+  HOME_PAGE,
+  HTML_PAGE,
+  CSS_PAGE,
+  JAVA_PAGE,
+  PHP_PAGE,
+  PYTHON_PAGE,
+  JAVASCRIPT_PAGE,
+  DATABASE
+}
