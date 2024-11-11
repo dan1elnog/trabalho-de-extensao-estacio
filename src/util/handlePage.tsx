@@ -1,4 +1,5 @@
 import { PagesEnum } from "../enums/PagesEnum";
+import AwsPage from "../pages/AwsPage";
 import CssPage from "../pages/cssPage";
 import DatabasePage from "../pages/databasePage";
 import HomePage from "../pages/homePage";
@@ -27,6 +28,8 @@ const handlePage = (page: PagesEnum) => {
       return <JavaScriptPage />
     case PagesEnum.DATABASE:
       return <DatabasePage />
+    case PagesEnum.AWS_PAGE:
+      return <AwsPage />
 
     default:
       return <HomePage />;

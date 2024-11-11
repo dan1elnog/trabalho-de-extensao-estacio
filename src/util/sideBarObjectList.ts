@@ -11,7 +11,7 @@ const sideBarObjectList: SideBarObjectType[] = [
   { id: 6, title: "Python", icon: FaPython, page: PagesEnum.PYTHON_PAGE},
   { id: 7, title: "JavaScript", icon: FaJs, page: PagesEnum.JAVASCRIPT_PAGE},
   { id: 8, title: "Banco de dados", icon: FaDatabase, page: PagesEnum.DATABASE },
-  // { id: 9, title: "AWS", icon: FaAws },
+  { id: 9, title: "AWS", icon: FaAws, page: PagesEnum.AWS_PAGE},
   // { id: 10, title: "Linux", icon: FaLinux },
 ]
 
