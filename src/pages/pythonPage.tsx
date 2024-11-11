@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-python.png"
+import Footer from "../components/Footer";
 
 const PythonPage: React.FC = () => {
 
@@ -70,6 +71,7 @@ const PythonPage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-database.png"
+import Footer from "../components/Footer";
 
 const DatabasePage: React.FC = () => {
 
@@ -101,6 +102,7 @@ const DatabasePage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }

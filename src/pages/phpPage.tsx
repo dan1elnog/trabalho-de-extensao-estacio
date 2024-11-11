@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-php.png"
+import Footer from "../components/Footer";
 
 const PhpPage: React.FC = () => {
 
@@ -62,6 +63,7 @@ const PhpPage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }

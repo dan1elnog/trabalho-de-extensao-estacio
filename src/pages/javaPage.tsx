@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-java.png"
+import Footer from "../components/Footer";
 
 const JavaPage: React.FC = () => {
 
@@ -67,6 +68,7 @@ const JavaPage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }

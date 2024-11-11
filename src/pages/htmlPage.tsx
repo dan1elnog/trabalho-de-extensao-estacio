@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-html.png"
+import Footer from "../components/Footer";
 
 const HtmlPage: React.FC = () => {
 
@@ -54,6 +55,7 @@ const HtmlPage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,7 @@
 import { Typography } from "@mui/material";
 import React from "react";
 import image from "../assets/logo-aws.png"
+import Footer from "../components/Footer";
 
 const AwsPage: React.FC = () => {
 
@@ -110,6 +111,7 @@ const AwsPage: React.FC = () => {
       {renderTitle()}
       {renderImage()}
       {renderContent()}
+      <Footer />
     </>
   )
 }
