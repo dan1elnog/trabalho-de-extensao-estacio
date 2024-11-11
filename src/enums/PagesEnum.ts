@@ -6,5 +6,6 @@ export enum PagesEnum {
   PHP_PAGE,
   PYTHON_PAGE,
   JAVASCRIPT_PAGE,
-  DATABASE
+  DATABASE,
+  AWS_PAGE
 }
