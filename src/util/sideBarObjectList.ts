@@ -12,7 +12,7 @@ const sideBarObjectList: SideBarObjectType[] = [
   { id: 7, title: "JavaScript", icon: FaJs, page: PagesEnum.JAVASCRIPT_PAGE},
   { id: 8, title: "Banco de dados", icon: FaDatabase, page: PagesEnum.DATABASE },
   { id: 9, title: "AWS", icon: FaAws, page: PagesEnum.AWS_PAGE},
-  { id: 10, title: "ReactNative", icon: FaReact, page: PagesEnum.REACT_NATIVE}
+  { id: 10, title: "React Native", icon: FaReact, page: PagesEnum.REACT_NATIVE}
 ]
 
 export default sideBarObjectList
