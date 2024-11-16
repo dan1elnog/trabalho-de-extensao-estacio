@@ -1,5 +1,5 @@
 import { PagesEnum } from "../enums/PagesEnum";
-import AwsPage from "../pages/AwsPage";
+import AwsPage from "../pages/awsPage";
 import CssPage from "../pages/cssPage";
 import DatabasePage from "../pages/databasePage";
 import HomePage from "../pages/homePage";
@@ -8,6 +8,7 @@ import JavaPage from "../pages/javaPage";
 import JavaScriptPage from "../pages/javascriptPage";
 import PhpPage from "../pages/phpPage";
 import PythonPage from "../pages/pythonPage";
+import ReactNativePage from "../pages/reactNativePage";
 
 const handlePage = (page: PagesEnum) => {
 
@@ -30,6 +31,8 @@ const handlePage = (page: PagesEnum) => {
       return <DatabasePage />
     case PagesEnum.AWS_PAGE:
       return <AwsPage />
+    case PagesEnum.REACT_NATIVE:
+      return <ReactNativePage />
 
     default:
       return <HomePage />;

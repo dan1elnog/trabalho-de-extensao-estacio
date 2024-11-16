@@ -7,5 +7,6 @@ export enum PagesEnum {
   PYTHON_PAGE,
   JAVASCRIPT_PAGE,
   DATABASE,
-  AWS_PAGE
+  AWS_PAGE,
+  REACT_NATIVE
 }

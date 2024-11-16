@@ -7,7 +7,7 @@ const HomePage: React.FC = () => {
     return (
       <Typography sx={{ marginBottom: 2, color: "#5b5959" }}>
         O seguinte projeto foi desenvolvido com o objetivo de servir como um pequeno guia resumido para os iniciantes na área de programação e desenvolvimento de software.
-        Foi construído de maneira simples para facilitar a usabilidade de todos os usuários que vierem à acessa-lo. Desenvolvido em TypeScript com o auxílo da bibliotca React e Material Ui onde os principais componetes podem ser encontrados.
+        Foi construído de maneira simples para facilitar a usabilidade de todos os usuários que vierem a acessá-lo. Desenvolvido em TypeScript com o auxílo da biblioteca React e Material Ui onde os principais componetes podem ser encontrados.
 
 
         <h3>
